@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <h2 class="title">About Me</h2>
+    <hr class="line">
+    <pre style=" color:rgb(161, 3, 3)">
+        I am a second-year student of Artificial Intelligence and Data Science 
+        with a strong interest in programming, data analysis, and intelligent systems. 
+        I am learning core concepts such as Python, databases, machine learning 
+        basics, and web technologies. I am passionate about improving my technical 
+        skills, working on practical projects, and building a strong foundation 
+        for my future career in AI and data-driven technologies.
+    </pre>
+
+    <h4 style="color: red;">Hard Skills</h4><br>
+    <hr class="line1">
+    <ol>
+        <li>Python</li>
+        <li>Excel</li>
+        <li>PowerBI</li>
+        <li>HTML, CSS and JavaScript</li>
+        <li>Canva</li>
+        <li>Figma</li>
+        <li>Power Point</li>
+    </ol>
+
+    <h4 style="color: red;">Soft  Skills</h4><br>
+    <hr class="line2">
+    <ol>
+        <li>Communication</li>
+        <li>Team project</li>
+        <li>Team management</li>
+        <li>Leadership</li>
+        <li>Responsibility</li>
+        <li>Learner</li>
+        <li>Development</li>
+    </ol>
+    <ul class="bubbles">
+    <li></li><li></li><li></li>
+    <li></li><li></li><li></li>
+    </ul>
+
+    
+
+    <style>
+        .line2{ width: 120px;
+            border: 2px solid red;
+            margin-left:2px;
+
+        }
+        .line1{ width: 120px;
+            border: 2px solid red;
+            margin-left:2px;
+
+
+        }
+
+        ol{
+            color:rgb(161, 3, 3) ;
+        }
+        
+         
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #0f2027;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+
+.bubbles {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: 0;   
+}
+
+.bubbles li {
+  position: absolute;
+  list-style: none;
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.3);
+  animation: rise 20s linear infinite;
+  bottom: -150px;
+  border-radius: 50%;
+}
+
+
+.bubbles li:nth-child(1) { left: 10%; width: 30px; height: 30px; animation-duration: 12s; }
+.bubbles li:nth-child(2) { left: 20%; width: 50px; height: 50px; animation-duration: 18s; }
+.bubbles li:nth-child(3) { left: 35%; width: 20px; height: 20px; animation-duration: 10s; }
+.bubbles li:nth-child(4) { left: 50%; width: 60px; height: 60px; animation-duration: 22s; }
+.bubbles li:nth-child(5) { left: 65%; width: 25px; height: 25px; animation-duration: 14s; }
+.bubbles li:nth-child(6) { left: 80%; width: 45px; height: 45px; animation-duration: 16s; }
+
+@keyframes rise {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateY(-1200px);
+    opacity: 0;
+  }
+}
+        
+
+         .title{
+            color: red;
+            margin-bottom: 12px;
+        }
+
+        .line {
+            width: 120px;
+            border: 2px solid red;
+            margin-left:12px;
+        }
+    </style>
+    
+</body>
+</html>
